@@ -1,0 +1,16 @@
+{
+  "name": "common-assets",
+  "license": "MIT",
+  "private": true,
+  "version": "1.0.0",
+  "engines": {
+    "node": "^10.15.3",
+    "yarn": "^1.15.2"
+  },
+  "scripts": {
+    "postinstall": "../bin/postinstall.sh"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "4.1.0"
+  }
+}
